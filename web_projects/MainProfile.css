@@ -1,0 +1,391 @@
+	html{
+        height:100%;
+}   
+		body{
+            padding-left:20px;
+		    padding-right:20px;
+            height:100%;
+			margin-bottom:10%;
+			background-color:white;
+			margin-left:5%;
+			margin-right:5%;
+
+		}
+/* nav */
+        nav{
+            position:fixed;
+            z-index:100;
+        }
+		.navbar{
+		margin-bottom:0px;	
+        
+		}
+
+        .content {
+			font-size:18px;   
+			font-family:"awesome";
+			background-color:gainsboro;
+        }
+        .heading{
+  	   	text-align:center;
+        }
+			
+        .userPost{   
+			text-align:center;
+			margin-left:auto;
+			margin-right:auto;
+			margin-top:10px;
+			margin:15px;
+            background-color:gainsboro;
+        }
+
+		
+			
+		.icon{
+			margin-bottom:20px;		
+			display:inline-block;
+		}
+		.status-box{
+			height:100px;
+			width:100%;
+			background-color:white;
+		}
+		
+		.counter{
+			display:inline;	
+			
+		}
+		form{
+			width:80%;
+			clear:both;
+			word-break: break-all;
+			background-color:white;
+			border: 1px solid black;
+			margin-left:auto;
+			margin-right:auto;
+			
+		}
+		
+		
+	/* post section which activates when the user clicks the submit button*/
+		.post {
+		  clear: both;
+		  list-style: none;
+		  margin-right:auto;
+		  margin-left:auto;
+		  width:80%;
+		  padding-left:0;
+		}
+
+        p.myPost{
+            background-color:white;
+            text-align:left;
+			display:inline;	
+			max-width:75%;
+            margin-left:15px;
+        }
+		
+		.post li {
+		  background-color: white;
+		  border: 1px solid #d8d8d8;
+		  padding-top: 10px;
+		  padding-left: 10px;
+		  padding-right: 10px;
+		  padding-bottom: 10px;
+		  margin-bottom: 10px;
+		  word-wrap: break-word;
+		  min-height: 60px;
+		  margin-right:auto;
+		  margin-left:auto;
+		  text-align:left;
+		
+		}
+		#miniProfilePic{
+			height:75px;
+			width:60px;	
+
+		}
+
+		.buttonGroup{
+		margin-top:5px;	
+		margin-right:10%;	
+			
+		}
+		.characterCounter{	
+		font-size:20px;	
+		
+		}
+/* this section belongs to the user info and profile */	
+        .infoBox{
+            padding:15px;    
+            font-size:24px;
+        }
+        .infoBox button{
+            font-size:18px;
+        }
+		.profileInfo{
+			background-color:gainsboro;
+			text-align:center;
+			width:100%;
+			max-height:auto;
+			margin-left:auto;
+			marign-right:auto;
+			margin-top:15px;
+			margin-bttom:25px;
+            padding-bottom:15px;
+            padding-top:15px;
+
+		}
+		.profileInfo .profilePic{
+			width:100%;
+			height:100%;
+			max-height:500px;
+			max-width:350px;
+			margin-left:auto;
+			margin-right:auto; 
+		}		
+		
+		.editBtn{
+            display:block;
+            margin-left:auto;
+            margin-right:auto;
+            margin-bottom:10px;
+            margin-top:5px;	
+            padding-right:15px;
+		}
+		
+		.saveBtn{
+            display:block;
+            margin-right:auto;
+            margin-left:auto;
+            margin-bottom:10px;
+            margin-top:5px;
+		}
+		.profileNameInput{
+		  width:50%;	
+		}
+		.profileAgeInput{
+		  width:50%;	
+		}
+		#timePost{
+			float:top;
+			float:right;
+		}
+/* options sections */
+    
+        .option{
+            margin-top:15px;
+            background-color:gainsboro;
+            padding:10px;
+            width:100%;
+            text-align: center;
+
+        }
+
+/* Friends list section */
+
+        aside{
+            display:block;    
+            margin-bottom:15px;
+        }
+		.friendsList{
+		background-color:gainsboro;
+		margin-top:15px;
+		display:table;
+		position:relative;
+		margin-left:auto;
+        margin-right:auto;
+        text-align:center;
+        padding-bottom:15px;
+        width:100%;
+		}
+		.FriendSearchBar{
+		margin-left:auto;
+		margin-right:auto;
+		text-align:center;
+        margin-bottom:15px;
+		width:60%;	
+        
+		}
+		.friends{ 
+		margin-top:15px;
+		margin-bottom:15px;
+        display:inline-block;
+        width:100%;
+        
+            
+		}
+
+		.friendObject{         
+            width:75px;
+            display: inline-block;
+            margin-left:auto;
+            margin-right:auto;
+            margin:15px;
+
+            
+		}
+
+
+        .friendBox{
+            text-align:center; 
+            margin:5px;
+            max-width:90%;
+            background-color:white;
+            margin:auto;
+            display:inline-block;
+            height:auto;
+            width:auto;
+            overflow:hidden;
+
+        }
+
+
+		.friends .friendObject .friendName, #friendProfilePic{
+			text-align:center;
+            font-size:14px;
+            font-family:awesome;
+        
+
+			
+		}
+		.friends #friendProfilePic{
+            min-height:50px;
+            max-height:80px;
+			margin-left:auto;
+			margin-right:auto;
+		}	
+
+        .friendsList h3{
+            padding-top:15px;
+        }
+
+/* picture section */
+    .pictureSection{
+        margin:15px;
+        padding-bottom:15px;
+        background-color:gainsboro;
+        text-align:center;
+        display: none;
+        margin-left:auto;
+        margin-right:auto;
+        overflow:hidden;
+    }
+
+    .photoGroup{
+            text-align:center; 
+            margin:5px;
+            max-width:90%;
+            background-color:white;
+            margin:auto;
+            display:table;
+            height:auto;
+            width:auto;
+            overflow:hidden;
+    }
+    .myPhoto{
+        width:auto;
+        height:auto;
+        max-width:30%;
+        margin:10px;
+        list-style:none;
+        display:inline;
+        text-align:center;
+      
+    }
+    .myImage:hover{
+    cursor: pointer;       
+}
+
+
+
+/* lightbox */
+
+
+
+.lightBox{
+    height:100%; 
+    width:100%;
+    background-color:black;
+    opacity:.7; 
+    z-index:99;
+    position:fixed;
+    top:0;
+    left:0;
+}
+
+    .popupImage{ 
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    height: auto;
+    width: 60%;
+    opacity:1;
+
+    }
+    /* close  button*/
+    .close{
+        font-size:32px;
+        cursor:pointer;
+        color:white;
+        text-align:right;
+        position:fixed;
+        z-index:100;
+        opacity:1;
+    }
+
+    .clearfix {
+        clear: both;
+    }
+
+    /* settings */
+    .setting{
+        marign-top:15px;
+        background-color:gainsboro;
+        margin:15px;
+        padding:15px;
+        text-align:center;
+        display:none;
+    }
+
+    .settingBox{
+        margin-left:auto;
+        margin-right:auto;
+        text-align:left;
+        background-color:white;
+        width:90%;
+        padding:15px;
+        
+    }
+    .backgroundColorSetting{
+        display:inline-block;    
+        width:100%;
+        float:right;
+        display:inline-block;
+    }
+
+    .backgroundImageSetting{
+    width:100%;
+    display:inline-block;
+    }
+    .backgroundImageSetting input{
+        width:50%;
+    }
+
+    .inputBackgroundColor{
+        width:15%;
+        margin-left:15px;
+    }
+
+    .inputBackgroundImage{
+        width:50%;
+        margin-left:15px;
+        
+    }
+    .set{
+        margin-top:15px;
+    }
+    
+

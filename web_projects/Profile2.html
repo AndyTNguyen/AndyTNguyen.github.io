@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+
+
+<html>
+	<head> 
+    <link rel="stylesheet" text="text/css" href="MainProfile.css"> </style>
+	<!-- Latest compiled and minified CSS -->
+
+
+	<!-- Optional theme -->
+
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400;300' rel='stylesheet' type='text/css'>
+		  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<!-- angular js -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+	</head>
+	
+    <heading>
+        <title> Test My Website</title>
+    </heading>
+
+    <body>		
+		
+		<nav class = "navbar navbar-inverse">
+			<div class="container-fluid"> 
+				<ul class="nav navbar-nav">
+					
+					<li>  <a href=myWebsite.html> Home </a> </li>
+					<li> <a href="../Home.html"> E-portfolio</a></li>
+					<li class= "dropdown">
+						<a class="dropdown" data-toggle="dropdown" href="#"> Projects <span class ="caret"> </span></a>
+						<ul class="dropdown-menu">
+							<li> <a href="RecipeBook.html"> Recipe</a></li>
+							<li> <a href= "BookMarker/Index.html"> Bookmark </a></li>
+							<li> <a href="Profile.html">Profile</a> </li>
+						</ul>
+					
+					</li>
+					<li> <a href="#"> Still Under Development</a></li>
+					
+				</ul>
+			
+			</div>
+		
+		</nav>
+		
+		<div class="content">            
+        
+		
+   <!---   profile picture and info -->
+          <aside class="col-md-3"> 
+                <div class="center-block profileInfo box ">
+                    <div class="infoBox">
+                    <image class="profilePic"src="ProfilePic.jpg"> </image>
+                        <div class="editName">
+                            <span class="profileName"> John Doe</span>				
+                        </div>
+                        <div class="editAge"> 
+                            <span> Age <span class="profileAge">32</span></span>
+                        </div>
+                        <button class="editBtn" type="button">  <span class="glyphicon glyphicon-edit"></span> Edit </button>
+                    </div>		
+                </div>		
+            <!----- options -->
+            <div class="option box">
+                  <h3> Options</h3>    
+                  <div class="optionBox">
+                    
+                      <button id="photoBtn" class="optionBtn" type="button"> Photos </button>
+                      <button id="dashboardBtn" class="optionBtn" type="button"> Dashboard</button>
+                      <button id="settingBtn" class="optionBtn" type="button"> Settings </button>
+                  </div>
+             </div>  
+            <!----- Friends List -->
+          
+                    <div class="friendsList box">
+                        <h3> Friends List </h3>
+                        <input type ="text" id="FriendSearchBar" onkeyup="searchFriend()" placeholder="Search..."> 
+                            <ul id="myUL">
+                              <li>
+                                    <div class = "friendObject"> 
+                                        <img id="friendProfilePic" src="ProfilePic.jpg">
+                                        <p class="friendName"> Joe King</p> 	
+                                    </div>
+                              </li>  
+                              <li>
+                                    <div class = "friendObject"> 
+                                        <img id="friendProfilePic" src="ProfilePic.jpg">
+                                        <p class="friendName"> Tim King</p> 	
+                                    </div>
+                              </li>  
+             
+                              <li>
+                                    <div class = "friendObject"> 
+                                        <img id="friendProfilePic" src="ProfilePic.jpg">
+                                        <p class="friendName"> Kelly King</p> 	
+                                    </div>
+                              </li>  
+                              <li>
+                                    <div class = "friendObject"> 
+                                        <img id="friendProfilePic" src="ProfilePic.jpg">
+                                        <p class="friendName"> Ray Dance</p> 	
+                                    </div>
+                              </li>  
+                                   
+                              <li>
+                                    <div class = "friendObject"> 
+                                        <img id="friendProfilePic" src="ProfilePic.jpg">
+                                        <p class="friendName"> Kay Low</p> 	
+                                    </div>
+                              </li>  
+                              <li>
+                                    <div class = "friendObject"> 
+                                        <img id="friendProfilePic" src="ProfilePic.jpg">
+                                        <p class="friendName"> Mike Le</p> 	
+                                    </div>
+                              </li>  
+                                                                                                                                                                                                                                                                
+                            </ul>
+                    </div>
+                   <div class="clearfix"></div>
+            </aside>
+	<!--------  post section----------->	
+            <div class="col-md-8 pictureSection box">
+                    <h2> My Photos</h2>
+            	   <div class="photoGroup"> 
+                        <img class="myPhoto" id="valley" src="http://cdn.demo.fabthemes.com/kansas/files/2012/08/wallpaper-722590cp.jpg">
+                                                                  
+                        <img class="myPhoto" id="bahamas" src="https://img1.coastalliving.timeinc.net/sites/default/files/styles/4_3_horizontal_inbody_900x506/public/image/2017/01/main/rose-island-bahamas-139536094.jpg?itok=0x7YUufx">
+                        
+                        <img  class="myPhoto" id="mountain" src="http://2.bp.blogspot.com/-EEIlYE6xQww/VQbEzSgHvtI/AAAAAAAAEos/aztKKn2Jrfs/s1600/123334111%2BGreat%2BNature%2BGreen%2BLake%2BMountain%2BSnow%2BTree%2BWater%2BHD%2BWallpaperz%2Bcyauaa.jpg">
+                        
+                        <img class="myPhoto" id="waterfall" src="https://i.ytimg.com/vi/xC5n8f0fTeE/maxresdefault.jpg">
+                        
+                        <img class="myPhoto" id="lake" src="https://static.pexels.com/photos/158489/yellowstone-national-park-sunset-twilight-dusk-158489.jpeg">
+                        
+                        <img class="myPhoto" id="bahamas2" src="http://www.moveabroadnow.com/wp-content/uploads/bahamas.jpg">
+                    </div>          
+                        <div class="clearfix"></div>
+             </div>
+            
+            
+            
+    <!-------- interactive post using JavaScript and some Jquery ----------->	
+            <div class="col-md-8 userPost box">
+                    <h2 class="heading"> Dashboard </h2>
+
+
+                    <br>
+
+
+            <!--- the status box --->			
+                        <form> 
+                            <textarea type="text" class=" status-box" rows="2" placeholder = "How are you feeling today? "></textarea>
+                            <br></br>
+
+                        </form>	
+
+                    <div class= "buttonGroup pull-right">
+                        <p class="characterCounter icon"> 140 </p>
+                        <button type="submit" class=" postBtn btn btn-default submitPost icon"> Submit </button>
+                    </div>
+        <br></br>
+                    <ul class="post">
+
+                    </ul>
+            </div>
+    <!-- Settings options -->
+
+            <div class="col-md-8 setting box">
+                <h2> Settings</h2>                
+                <div class="settingBox"> 
+                    <select id="backgroundType" onchange="checkBackground()">
+                        <option class="backgroundColorType" value="Background Color">Background Color</option>
+                        <!-- -->
+                        <option class="backgroundImageType" value="Background Image"> Background Image </option>
+ -->                 </select> 
+                    <input type="text" class="inputBackgroundImage" placeholder="Enter the URL of the image address">
+                    <input type="color" class="inputBackgroundColor">
+                    </div>
+                
+                    <button class="set" type="submit" > Set </button>
+                    </div>
+                </div>
+            </div>    
+    <!-- footer -->
+        <footer>
+         
+        </footer>
+    </body>
+    <style>
+        
+        #friendProfilePic{
+         min-height:50px;
+         max-height:80px;
+        margin-left:auto;
+        margin-right:auto;
+        }
+        
+        
+        #myUL{
+         list-style: none;
+        margin-left:auto;
+        margin-right:auto;
+        padding-left:0;
+        position:relative;
+            
+        }
+        
+        #myUL li{
+        display:inline-block;
+        margin:5px;
+        margin-left:auto;
+        margin-right:auto;
+        width:105px;
+        height:145px;
+        display:inline-flex;
+        }
+        
+    </style>
+     
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src= "Profile.jS"></script>
+</html>

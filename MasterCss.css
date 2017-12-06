@@ -1,0 +1,85 @@
+/* creating the white padding box and the background */
+
+body{
+    background-color:ghostwhite;
+    background-attachment:fixed;
+    max-width:100%;
+    overflow-x:hidden;
+    font-family:awesome;
+    padding-left:2.5%;
+    padding-right:2.5%;
+    }
+
+.box{
+width:90%;
+background-color:white;
+margin-left:auto;
+margin-right:auto;
+border-style: solid;
+border-color:black;
+border-width:5px;
+overflow:hidden;
+margin-bottom:50px;
+font-size:14px;
+ margin-left:5%;
+ margin-right:5%;    
+    }
+
+        
+.webInfo{
+ width:90%;
+ margin-left:5%;
+ margin-right:5%;
+}
+/* creating the title and navigation bar */
+#title{
+text-align:LEFT;
+color:rgb(0, 0, 102);
+        }
+    
+.navbar-default .navbar-nav>li>a{
+    color:deepskyblue
+    }
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.navbar.navbar-default {
+
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.navbar.navbar-default .navbar-collapse {
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+li {
+    float:left;
+}
+
+li a {
+    display: inline-block;
+    color: powderblue;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+    font-size: 20px
+}
+
+#page-title{
+
+    text-align:center;
+    font-family:trajan;
+    font-size:500%;
+        }        
